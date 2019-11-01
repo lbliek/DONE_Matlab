@@ -7,6 +7,11 @@ DONE minimizes a function that may suffer from noise, by approximating the funct
 
 Please contact l.bliek@tudelft.nl or h.r.g.w.verstraete@tudelft.nl for questions and comments.
 
-This implementation is meant to make it as clear as possible what is going on inside the algorithm. This results in a slow implementation. For faster implementations, please use the C++ dlls available at https://github.com/csi-dcsc/pyDONEc
+This implementation is meant to make it as clear as possible what is going on inside the algorithm. This results in a slow implementation. For faster implementations, please see:
+
+* C++: https://bitbucket.org/csi-dcsc/donecpp
+* Julia: https://github.com/rdoelman/DONEs.jl
+* Python wrapper: https://bitbucket.org/csi-dcsc/pydonec
+
 
 The main scientific paper for the DONE algorithm can be found at http://ieeexplore.ieee.org/document/7728083/
